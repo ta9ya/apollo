@@ -15,3 +15,8 @@ tox = "*"
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+test = "pytest"
+lint = "flake8 --show-source ."
+format = "autopep8 -ivr ."
